@@ -1,0 +1,186 @@
+        /* media_query=767 start */
+        
+        @media only screen and (max-width: 767px) {
+            #top-navbar-1 ul,
+            #footer-section .box2 .footer-info {
+                justify-content: center;
+                display: flex;
+            }
+            #top-navbar-1 .menu-bars1 {
+                display: flex !important;
+                justify-content: center !important;
+            }
+            #top-navbar-2 .box {
+                display: inline-block;
+            }
+            #footer-section .box2 p {
+                justify-content: center;
+                display: flex;
+                float: none;
+            }
+            #carousel-section .carousel-inner .carousel-item .slider-media {
+                height: 250px;
+            }
+            #talk-section .media-box {
+                border: none;
+            }
+            #header-navbar .navbar-brand img {
+                width: 100px;
+                height: 50px;
+                display: block !important;
+            }
+            #gallery-section .gallery {
+                /* display: grid; */
+                grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+                grid-gap: 2rem;
+                flex-wrap: nowrap;
+                align-items: center;
+                justify-content: center;
+                display: contents;
+            }
+            #gallery-section .gallery-item {
+                flex: 1 0 24rem;
+                margin: 1rem;
+                box-shadow: 0.3rem 0.4rem 0.4rem rgb(0 0 0 / 40%);
+                overflow: hidden;
+                margin-top: 23px !important;
+            }
+            #about-banner {
+                height: auto;
+            }
+            #about-gallery .img-media {
+                margin-top: -50px;
+            }
+            #about-info h3 {
+                font-size: 25px;
+            }
+            #gallery-section .heading {
+                padding: 0px;
+                margin-top: 20px;
+            }
+            #contact-banner-info {
+                height: auto;
+                padding-bottom: 20px;
+            }
+            #contact-banner-info h1 {
+                margin-top: 20px;
+            }
+            #why-us-section h3 {
+                margin-top: 0px;
+            }
+            #gratuity-section h2 {
+                margin-top: -20px !important;
+            }
+            #mdrt-section h2 {
+                font-size: 28px;
+                margin-top: -30px !important;
+            }
+            #mdrt-section table tr th {
+                padding: 0%;
+                font-size: 11px;
+            }
+            #mdrt-section table tr td {
+                padding: 2%;
+                font-size: 12px;
+            }
+            #mdrt-section .container .row .col-lg-12 {
+                padding-left: 7px !important;
+            }
+            #remuneration-section table tr th {
+                padding: 0%;
+                font-size: 11px;
+            }
+            #remuneration-section table tr td {
+                padding: 0%;
+                font-size: 12px;
+            }
+            #new-joiner-section .box iframe {
+                height: auto;
+            }
+            #insurance-company h3 {
+                font-size: 25px;
+            }
+            #testi-slider .contant {
+                height: auto;
+            }
+            #testi-slider h2 {
+                font-size: 25px;
+            }
+            #talk-section h4 {
+                font-size: 20px;
+            }
+            #talk-section .box-b-3 {
+                margin-top: -10px !important;
+            }
+        }
+        /* media_query=767 end */
+        /* media_query=768 and 1024 (portrait) start */
+        
+        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+            #carousel-section .carousel-inner .carousel-item .slider-media {
+                height: 350px;
+            }
+            #talk-section .media-box {
+                border: none;
+            }
+            #benefits-info img {
+                position: absolute;
+                top: 24%;
+            }
+            #eligibilty-section img {
+                position: relative;
+                top: 24%;
+            }
+            #eligibility-form .image-info {
+                position: relative;
+                top: 24%;
+            }
+            #connction-info .box {
+                height: 142px;
+            }
+            #why-us-section img {
+                position: relative;
+                top: 24%;
+            }
+            #Introduction-section img,
+            #carrer-section img,
+            #job-section img,
+            #success-section img,
+            #procedure-section img,
+            #club-memberships-section img,
+            #gratuity-section img,
+            #mdrt-section img {
+                position: relative;
+                top: 20%;
+            }
+            #remuneration-section img {
+                position: relative;
+                top: 20%;
+            }
+            #about-info img {
+                position: relative;
+                top: 20%;
+            }
+        }
+        /* media_query = 768 and 1024 (portrait) end */
+        
+        @media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+            #benefits-info img {
+                position: absolute;
+                top: 24%;
+            }
+            #eligibilty-section img {
+                position: relative;
+                top: 24%;
+            }
+            #why-us-section img {
+                position: relative;
+                top: 20%;
+            }
+        }
+        
+        @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) {
+            #connction-info .box {
+                height: 105px;
+            }
+        }
